@@ -10,6 +10,11 @@ The lock file is present only during active Terraform operations such as `terraf
 No, the lock file is temporary. It is automatically removed after the operation that created it is completed. It will not persist in the S3 bucket.
 
 ## Screenshots
+### State File in S3 Bucket
+![State File](./state-aws.png)
+
+### Lock File and State File During Terraform Apply
+![State File](./stateandlock.png)
 
 ### State File in S3 Bucket
 ![State File](./terraform-lock.png)
